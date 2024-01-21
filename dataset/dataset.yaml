@@ -1,4 +1,4 @@
 train: /home/gom/Workspace/do-yolov8/dataset/test
 val: /home/gom/Workspace/do-yolov8/dataset/train
 nc: 2
-names: ["butterfly", "squirrel"]
+names: ["squirrel","butterfly"]
