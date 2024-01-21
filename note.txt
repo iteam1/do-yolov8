@@ -9,3 +9,7 @@ pip install ultralytics
 labelme2yolo --json_dir dataset/train
 
 labelme2yolo --json_dir dataset/test
+
+yolo task=segment \
+mode=train epochs=100 data=dataset/dataset.yaml \
+model=yolov8m-seg.pt imgsz=640 batch=8
