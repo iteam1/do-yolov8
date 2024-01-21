@@ -1,0 +1,11 @@
+conda create -n yolov8 python=3.8
+
+conda activate yolov8
+
+pip install labelme2yolo
+
+pip install ultralytics
+
+labelme2yolo --json_dir dataset/train
+
+labelme2yolo --json_dir dataset/test
